@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Github</a> <a href='#'>Google Scholar</a> <a href='#'>CV</a> <a href='#'>LinkedIn</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: chanwoo-kim.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>chanwoo-kim@korea.ac.kr</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,6 +24,15 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+subtitle: "<span style='font-size: 2em; font-weight: bold;'>Hi, I'm Chanwoo 👋</span>"
+I'm currently a Ph.D. candidate at Korea University, working under the joint supervision of Professors Kyungjae Lee and Sungjoon Choi since March 2025. Before joining Korea University, I completed my master's degree at Chung-Ang University under Professor Kyungjae Lee's guidance, starting in September 2022 and graduating in February 2025. My journey began at Chung-Ang University, where I earned my bachelor's degree in Mechanical Engineering from February 2017 to August 2022.
+
+subtitle: "<span style='font-size: 2em; font-weight: bold;'>Robots and Me 🦾</span>"
+There's nothing more thrilling to me than seeing a robot move exactly as intended. My passion lies deeply in robotics research, and I've had hands-on experiences across various robotic platforms—from manipulators and mobile robots to humanoids. I'm eager to explore even more platforms like exoskeletons and quadruped robots. What truly excites me is developing `real-time robotic systems` that dynamically interact and adapt based on human responses. To me, there's something uniquely satisfying about creating responsive, interactive robots.
+
+subtitle: "<span style='font-size: 2em; font-weight: bold;'>Personalized Robotics for Everyone 🤖✨</span>"
+I strongly believe robots should offer personalized experiences tailored specifically to individual needs. Just as every person is unique, their preferences and expectations from robots in different scenarios vary widely. Although it may be impossible to meet everyone's expectations perfectly, my ultimate goal is to develop `personalized robotic systems` that closely align with individual personalities and desires. Someday, I envision robots seamlessly integrating into everyday life, intuitively responding to our individual needs.
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
