@@ -1,6 +1,33 @@
 ---
 ---
 @string{aps = {American Physical Society,}}
+
+@article{kim2026learn,
+      author={Kim, Chanwoo and Yoon, Jihwan and Kim, Hyeonseong and Jeong, Taemoon and Yoo, Changwoo and Lee, Seungbeen and Byeon, Soohwan and Chung, Hoon and Pan, Matthew and Oh, Jean and Lee, Kyungjae and Choi, Sungjoon},
+      title={Learning Social Navigation from Positive and Negative Demonstrations and Rule-Based Specifications},
+      journal={IEEE International Conference on Robotics and Automation (ICRA)},
+      abbr={ICRA2026},
+      publisher={IEEE},
+      year={2026},
+      abstract={Mobile robot navigation in dynamic human environments requires policies that balance adaptability to diverse behaviors with compliance to safety constraints. We hypothesize that integrating data-driven rewards with rule-based objectives enables navigation policies to achieve a more effective balance of adaptability and safety. To this end, we develop a framework that learns a density-based reward from positive and negative demonstrations and augments it with rule-based objectives for obstacle avoidance and goal reaching. A sampling-based lookahead controller produces supervisory actions that are both safe and adaptive, which are subsequently distilled into a compact student policy suitable for real-time operation with uncertainty estimates. Experiments in synthetic and elevator co-boarding simulations show consistent gains in success rate and time efficiency over baselines, and real-world demonstrations with human participants confirm the practicality of deployment. A video illustrating this work can be found on our project page https://chanwookim971024.github.io/PioneeR/.},
+      pdf={https://arxiv.org/abs/2510.12215},
+      website={https://chanwookim971024.github.io/PioneeR/},
+      preview={2026ICRA_pioneer.mp4},
+      selected={true},
+}
+
+@article{byun2026effective,
+      author={Byun, Taehyun and Kim, Chanwoo and Lim, Bokman and Suh, Sungho and Choi, Sungjoon},
+      title={Effective Evaluation of Exoskeleton Using Exo-Agnostic Uncertainty-Aware Classification Model with Wearable Sensors},
+      journal={ACM Augmented Humans (AHs)},
+      abbr={AHs2026},
+      publisher={ACM},
+      year={2026},
+      abstract={Evaluating hip exoskeleton–assisted gait in real-world environments remains challenging, as conventional approaches rely on lab-based biomechanical measurements or subjective reports. This work proposes a lightweight, wearable-sensor–based metric for characterizing how exoskeleton assistance reshapes an individual’s walking pattern relative to their baseline. We introduce an uncertainty-aware, exoskeleton-agnostic classification framework trained exclusively on exoskeleton-off data to distinguish normal from perturbed gait. From the model outputs, we derive interpretable deviation metrics that quantify representation-level shifts from terrain-specific baseline gait, without relying on device-specific inputs. The proposed metrics are evaluated in a human-subject study with ten participants across multiple terrains and controlled perturbations, with and without hip exoskeleton assistance. Across conditions, the metrics exhibit consistent directional changes under assistance, enabling relative comparison of gait reshaping across terrains and perturbation types.},
+      preview={2026AHs_effective.pdf},
+      selected={true},
+}
+
 @article{jeong2025core,
       author={Jeong, Taemoon and Chai, Yoonbyung and Choi Sol and Bak Jaewan and Kim, Chanwoo and Yoon, Jihwan and Lee, Yisoo and Lee, Kyungjae and Kim, Joohyung and Choi, Sungjoon},
       title={CoRe: A Hybrid Approach of Contact-aware Optimization and Learning for Humanoid Robot Motions},
@@ -10,6 +37,7 @@
       year={2025},
       abstract={Recent advances in text-to-motion generation enable realistic human-like motions directly from natural language. However, translating these motions into physically executable motions for humanoid robots remains challenging due to significant embodiment differences and physical constraints. Existing methods primarily rely on reinforcement learning (RL) without addressing initial kinematic infeasibility. This often leads to unstable robot behaviors. To overcome this limitation, we introduce Contact-aware motion Refinement (CoRe), a fully automated pipeline consisting of human motion generation from text, robot-specific retargeting, optimization-based motion refinement, and a subsequent RL phase enhanced by contact-aware rewards. This integrated approach mitigates common motion artifacts such as foot sliding, unnatural floating, and excessive joint accelerations prior to RL training, thereby improving overall motion stability and physical plausibility. We validate our pipeline across diverse humanoid platforms without task-specific tuning or dynamic-level optimization. Results demonstrate effective sim-to-real transferability in various scenarios, from simple upper-body gestures to complex whole-body locomotion tasks.},
       website={https://tmjeong1103.github.io/CoRe/},
+      preview={2025Humanoids_core.mp4},
       selected={true},
 }
 
@@ -23,7 +51,7 @@
       abstract={This paper presents a novel learning-based approach to dynamic robot-to-human handover, addressing the challenges of delivering objects to a moving receiver. We hypothesize that dynamic handover, where the robot adjusts to the receiver's movements, results in more efficient and comfortable interaction compared to static handover, where the receiver is assumed to be stationary. To validate this, we developed a nonparametric method for generating continuous handover motion, conditioned on the receiver's movements, and trained the model using a dataset of 1,000 human-to-human handover demonstrations. We integrated preference learning for improved handover effectiveness and applied impedance control to ensure user safety and adaptiveness. The approach was evaluated in both simulation and real-world settings, with user studies demonstrating that dynamic handover significantly reduces handover time and improves user comfort compared to static methods. Videos and demonstrations of our approach are available at https://zerotohero7886.github.io/dyn-r2h-handover/},
       pdf={https://arxiv.org/abs/2502.12602},
       website={https://zerotohero7886.github.io/dyn-r2h-handover/},
-      preview={dyn_ho.gif},
+      preview={2025ICRA_dyn.gif},
       selected={true},
 }
 
