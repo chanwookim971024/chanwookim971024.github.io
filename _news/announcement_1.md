@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-03-01 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+:tada: Our paper "Effective Evaluation of Exoskeleton Using Exo-Agnostic Uncertainty-Aware Classification Model with Wearable Sensors" has been accepted to Augmented Humans (AHs) 2026! See you in Okinawa! 
