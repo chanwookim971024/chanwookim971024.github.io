@@ -384,16 +384,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-tada-our-paper-effective-evaluation-of-exoskeleton-using-exo-agnostic-uncertainty-aware-classification-model-with-wearable-sensors-has-been-accepted-to-augmented-humans-ahs-2026-see-you-in-okinawa",
+          title: ':tada: Our paper “Effective Evaluation of Exoskeleton Using Exo-Agnostic Uncertainty-Aware Classification Model with...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-tada-our-paper-learning-social-navigation-from-positive-and-negative-demonstrations-and-rule-based-specifications-pioneer-has-been-accepted-to-icra-2026-see-you-in-vienna",
+          title: ':tada: Our paper “Learning Social Navigation from Positive and Negative Demonstrations and Rule-Based...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
